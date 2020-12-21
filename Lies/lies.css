@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Benguiat;
+    src: url('../Benguiat.ttf');
+}
+
+.benguiat {
+    font-family: Benguiat;
+
+}
+
+.fullscreen {
+    height: 100vh;
+    text-align: center;
+
+}
+
+.center_text{
+
+    font-size: 9.5rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: white;
+
+
+}
+
+
+
+
+#lies_text{
+    background-color: black;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+#yorha_img{
+    background-image: url("../images/yorha.jpg");
+    background-size: cover;
+}
+
+#forest_king{
+    background-image: url("../images/forestking.jpg");
+    background-size: cover;
+}
+
+.commander_img{
+    position: absolute;
+    right: 0%;
+    max-height:100%;
+}
+
+.previous_button{
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+}
+
+.next_button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.title_button{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.volume_button{
+    position: absolute;
+    top: 0;
+    right: 0;
+}

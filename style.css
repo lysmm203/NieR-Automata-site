@@ -1,0 +1,246 @@
+
+@font-face {
+    font-family: Benguiat;
+    src: url('Benguiat.ttf');
+}
+
+.benguiat {
+    font-family: Benguiat;
+
+}
+
+.fullscreen {
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.image_height_adjust{
+    height: 100vh;
+
+}
+
+.big_image_padding{
+    padding: 4%;
+}
+
+.center_text{
+
+    font-size: 9.5rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: white;
+
+}
+
+.quote_column_format{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.character_quotes {
+    text-align: center;
+    font-size: 6rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: white;
+
+}
+
+.quote_background{
+    background: url(images/endingE_flipped.png);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+.quote_background_reverse{
+    background: url(images/endingE.png);
+}
+
+.pure_text_format{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.general_img{
+    position: absolute;
+    right: 2%;
+    max-height:100%;
+}
+
+.nineS_img{
+    position: absolute;
+    right: 5%;
+    max-height:100%;
+}
+
+
+#lies_text{
+
+    background-color: black;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#yorha_img{
+    background-image: url("images/yorha.jpg");
+    background-size: cover;
+}
+
+#forest_king{
+    background-image: url("images/forestking.jpg");
+    background-size: cover;
+}
+
+
+
+
+.general_img{
+    position: absolute;
+    right: 2%;
+    max-height:100%;
+}
+
+.left_img{
+    position: absolute;
+    left: 2%;
+    max-height:100%;
+}
+
+.previous_button{
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+}
+
+.next_button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.title_button{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.volume_button{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.reset {
+    margin: 0;
+    padding: 0;
+}
+
+#title_screen{
+    background: url(images/nier_automata.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    overflow: hidden;
+}
+
+
+
+
+.lies{
+
+    align-items: center;
+    justify-content: center;
+    max-width: 30%;
+    max-height: 30%;
+}
+
+
+#commander{
+    background: url(images/bunker_blurred.png);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#adam{
+    background: url(images/copied_city_blurred.png);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#red1{
+    background: url(images/tower_blurred_flipped.png);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#red2{
+    background: url(images/tower_blurred.png);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+#pod{
+    background: url(images/pod_bg_blurred.jpeg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#twobee{
+    background: url(images/endingE_flipped_blurred.png);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#eve{
+    background: url(images/eve_bg_blurred.png);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+#nineS{
+    background: url(images/lunar_tears_blurred.png);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.static{
+    display: none;
+    background-image: url(images/static.gif);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
