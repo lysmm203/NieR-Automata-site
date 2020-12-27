@@ -1,3 +1,21 @@
+/* General formatting */
+
+h1{
+    margin: 2% auto 0;
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+hr{
+    margin: 0.5% auto 4%;
+}
 
 @font-face {
     font-family: Benguiat;
@@ -14,8 +32,76 @@
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+.middle_column{
+    text-align: center;
+}
+
+
+
+
+/* Title Screen */
+
+
+.trailer{
+    display: flex;
+    position: absolute;
+    top: 40.5%;
+    left: 7%;
+    margin: 0;
+}
+
+
+/* Story Page */
+
+#story_page{
+    text-align: center;
+    background: url(images/menu.png);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.story{
+    font-size: 2rem;
+    margin: 3% auto 2%;
+    text-align: center;
 
 }
+
+/* Characer Page */
+
+#character_page{
+    text-align: center;
+    background-color: purple;
+}
+
+.carousel-control-prev{
+    margin-left: -15%;
+}
+
+.carousel-control-next{
+    margin-right: -15%;
+}
+
+.character_desc{
+    margin-top: 5%;
+    text-align: left;
+}
+
+.carousel-caption {
+position: relative;
+left: 0;
+top: 0;}
+
+
+
+
+
+/* Previous CSS */
+
 
 .image_height_adjust{
     height: 100vh;
@@ -212,7 +298,7 @@
 }
 
 #twobee{
-    background: url(images/endingE_flipped_blurred.png);
+    background: url(images/endingE_flipped.png);
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
