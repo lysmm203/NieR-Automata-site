@@ -75,7 +75,7 @@ hr{
 
 #character_page{
     text-align: center;
-    background-color: purple;
+    background-color: #f5f4f4;
 }
 
 .carousel-control-prev{
@@ -94,7 +94,22 @@ hr{
 .carousel-caption {
 position: relative;
 left: 0;
-top: 0;}
+top: 0;
+color: black;
+text-align: left;
+
+}
+
+.carousel-control-prev-icon{
+    filter: invert(100%);
+}
+
+.carousel-control-next-icon{
+    filter: invert(100%);
+}
+
+
+
 
 
 
