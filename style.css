@@ -91,14 +91,15 @@ hr{
     text-align: left;
 }
 
-.carousel-caption {
+.carousel_caption {
 position: relative;
 left: 0;
 top: 0;
 color: black;
 text-align: left;
-
+display: none;
 }
+
 
 .carousel-control-prev-icon{
     filter: invert(100%);
