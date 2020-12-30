@@ -83,6 +83,7 @@ select{
 #character_page{
     text-align: center;
     background-color: #f5f4f4;
+    height: 93vh;
 }
 
 .carousel-control-prev{
@@ -124,11 +125,28 @@ display: none;
     pointer-events: auto;
 }
 
+.dot_line{
+border-top: 10px dotted;
+margin: auto;
+background-color: #f5f4f4;
+width: 5%;
+padding: 5px 0 40px;
+}
+
+.hr_wrapper{
+    background-color: #f5f4f4;
+}
 
 /* concept art page */
 
-#concept_art_page div{
-    margin-bottom: 5%;
+
+
+#concept_art_page{
+
+    background-color: #f5f4f4;
+    padding: 40px auto 40px;
+    height: auto;
+
 }
 
 .concept_art{

@@ -180,7 +180,15 @@
             </div>
 
         </div>
+
+
+
     </div>
+
+    <div class="hr_wrapper">
+        <hr class="dot_line">
+    </div>
+
 
     <div id="concept_art_page" class="fullscreen benguiat row">
 
@@ -198,7 +206,7 @@
 
             <img src="images/cityruins1.jpg" class=" concept_art w-100" alt="...">
 
-            <img src="images/cityruins2.jpg" class=" concept_art w-100" alt="...">
+            <img src="images/amusement_park.jpg" class=" concept_art w-100" alt="...">
 
             <img src="images/forestking.jpg" class=" concept_art w-100" alt="...">
 
@@ -206,40 +214,46 @@
 
         </div>
 
-        <div id="purchase_page" class="fullscreen benguiat row">
+    </div>
 
-            <div class="col-sm-1">
+    <div id="purchase_page" class="fullscreen benguiat row">
+
+        <div class="col-sm-1">
+
+        </div>
+
+        <div class="col-sm-5">
+            <h1 class="purchase_text">Select Your Platform:</h1>
+            <hr>
+            <select name="platform" id="platform">
+
+                <option value="steam" selected="selected">Steam</option>
+                <option value="xbox_one">Xbox One</option>
+                <option value="ps4">PS4</option>
+
+            </select>
+
+            <div class="product_container">
+                <a href="https://www.xbox.com/en-US/games/nier-automata" target="_blank">
+                    <img class="product_image xbox" src="images/xbox.jpg" alt=""></a>
+
+                <a href="https://store.playstation.com/en-us/product/UP0082-CUSA04551_00-GOTYORHADIGITAL0" target="_blank"><img class="product_image" src="images/ps4.jpg" alt=""></a>
+
+                <a href="https://store.steampowered.com/app/524220/NieRAutomata/" target="_blank"><img class="product_image" src="images/steam.jpg" alt=""></a>
+
 
             </div>
-
-            <div class="col-sm-5">
-                <h1 class="purchase_text">Select Your Platform:</h1>
-                <hr>
-                <select name="platform" id="platform">
-
-                    <option value="steam" selected="selected">Steam</option>
-                    <option value="xbox_one">Xbox One</option>
-                    <option value="ps4">PS4</option>
-
-                </select>
-
-                <div class="product_container">
-
-                    <img class="product_image xbox" src="images/xbox.jpg" alt="">
-                    <img class="product_image" src="images/ps4.jpg" alt="">
-                    <img class="product_image" src="images/steam.jpg" alt="">
-
-                </div>
-
-            </div>
-
-
 
         </div>
 
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="index.js" charset="utf-8"></script>
+
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
 </body>
 
 </html>

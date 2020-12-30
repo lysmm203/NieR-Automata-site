@@ -137,3 +137,6 @@ const proxy = new Proxy(caption_array, {
         return target[prop];
     }
 });
+
+//
+// alert($("#character_page").css("display"));
