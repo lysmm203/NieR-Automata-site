@@ -17,6 +17,13 @@ hr{
     margin: 0.5% auto 4%;
 }
 
+select{
+    margin: 3%;
+    text-align: center;
+}
+
+
+
 @font-face {
     font-family: Benguiat;
     src: url('Benguiat.ttf');
@@ -109,11 +116,44 @@ display: none;
     filter: invert(100%);
 }
 
+.prevent_click{
+    pointer-events: none;
+}
+
+.enable_click{
+    pointer-events: auto;
+}
+
+
+/* concept art page */
+
+#concept_art_page div{
+    margin-bottom: 5%;
+}
+
+.concept_art{
+    margin: 10px;
+}
 
 
 
+/* Purchase Page */
+
+#purchase_page{
+    background-image: url("images/endingE.png");
+    color: white;
+    text-align: center;
+}
+
+.purchase_text{
+    margin: 5% 0 0;
+}
 
 
+.product_container img {
+    width: 55%;
+    margin: 8%;
+}
 
 
 /* Previous CSS */
