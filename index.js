@@ -2,15 +2,7 @@ var caption_array = $(".carousel_caption");
 
 var caption_counter = 0;
 
-var carousel_sliding = false;
 
-
-$(document).ready(function() {
-  $(".carousel_caption").click(function() {
-    $(".carousel_caption").hide();
-  });
-
-});
 
 $(document).ready(function() {
     $(".twobee_caption").show();
