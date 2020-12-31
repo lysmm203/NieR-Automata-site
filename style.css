@@ -74,7 +74,7 @@ select{
     background: url(images/menu.png);
     background-position: center center;
     -webkit-background-size: cover;
-    
+
 }
 
 .story{
@@ -179,6 +179,8 @@ width: 5%;
     background-image: url("images/endingE.png");
     color: white;
     text-align: center;
+    background-position: center center;
+    -webkit-background-size: cover;
 }
 
 .purchase_text{
