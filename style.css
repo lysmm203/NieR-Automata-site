@@ -181,6 +181,7 @@ width: 5%;
     text-align: center;
     background-position: center center;
     -webkit-background-size: cover;
+    height: 100vh;
 }
 
 .purchase_text{
