@@ -2,15 +2,12 @@
 
 h1{
     margin: 2% auto 0;
-    font-size: 5vw;
+    font-size: 9vh;
 }
 
-h2{
-    font-size: 3vw;
-}
 
 p{
-    font-size: 1.3vw;
+    font-size: 2.5vh;
 }
 
 hr{
@@ -82,7 +79,7 @@ select{
 }
 
 .story{
-    font-size: 2vw;
+    font-size: 3vh;
     margin: 3% auto 2%;
     text-align: center;
 
