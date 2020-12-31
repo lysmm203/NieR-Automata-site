@@ -1,25 +1,21 @@
 /* General formatting */
-
-h1{
+h1 {
     margin: 2% auto 0;
     font-size: 9vh;
 }
 
-
-p{
+p {
     font-size: 2.5vh;
 }
 
-hr{
+hr {
     margin: 0.5% auto 4%;
 }
 
-select{
+select {
     margin: 3%;
     text-align: center;
 }
-
-
 
 @font-face {
     font-family: Benguiat;
@@ -28,7 +24,6 @@ select{
 
 .benguiat {
     font-family: Benguiat;
-
 }
 
 .fullscreen {
@@ -38,17 +33,12 @@ select{
     padding: 0;
 }
 
-.middle_column{
+.middle_column {
     text-align: center;
 }
 
-
-
-
 /* Title Screen */
-
-
-.trailer{
+.trailer {
     position: absolute;
     top: 40.5%;
     left: 7%;
@@ -57,137 +47,119 @@ select{
     width: 45%;
 }
 
-#title_screen{
+#title_screen {
     background: url(images/nier_automata.jpg);
-    background-position: center center;
     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: flex;
     overflow: hidden;
 }
 
-
-
 /* Story Page */
-
-#story_page{
+#story_page {
     text-align: center;
     background: url(images/menu.png);
-    background-position: center center;
     -webkit-background-size: cover;
-
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.story{
+.story {
     font-size: 3vh;
     margin: 3% auto 2%;
     text-align: center;
-
 }
 
 /* Characer Page */
-
-#character_page{
+#character_page {
     text-align: center;
     background-color: #f5f4f4;
     height: 100vh;
 }
 
-.carousel-control-prev{
+.carousel-control-prev {
     margin-left: -15%;
 }
 
-.carousel-control-next{
+.carousel-control-next {
     margin-right: -15%;
 }
 
-.character_desc{
+.character_desc {
     margin-top: 5%;
     text-align: left;
 }
 
 .carousel_caption {
-position: relative;
-left: 0;
-top: 0;
-color: black;
-text-align: left;
-display: none;
-margin-top: 20px;
+    position: relative;
+    left: 0;
+    top: 0;
+    color: black;
+    text-align: left;
+    display: none;
+    margin-top: 20px;
 }
 
-
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
     filter: invert(100%);
 }
 
-.carousel-control-next-icon{
+.carousel-control-next-icon {
     filter: invert(100%);
 }
 
-.prevent_click{
+.prevent_click {
     pointer-events: none;
 }
 
-.enable_click{
+.enable_click {
     pointer-events: auto;
 }
 
-.dot_line{
-border-top: 10px dotted;
-margin: 10px auto;
-
-background-color: #f5f4f4;
-width: 5%;
-
-
-
-
+.dot_line {
+    border-top: 10px dotted;
+    margin: 10px auto;
+    background-color: #f5f4f4;
+    width: 5%;
 }
 
-.hr_wrapper{
+.hr_wrapper {
     background-color: #f5f4f4;
     padding: 80px 0 35px;
     align-items: center;
-
 }
 
 /* concept art page */
-
-
-#concept_art_page{
-
+#concept_art_page {
     background-color: #f5f4f4;
     height: auto;
-
 }
 
-.concept_art{
+.concept_art {
     margin: 10px;
 }
 
-.bottom_padding{
+.bottom_padding {
     padding-bottom: 40px;
-
 }
 
-
-
-
 /* Purchase Page */
-
-#purchase_page{
+#purchase_page {
     background-image: url("images/endingE.png");
     color: white;
     text-align: center;
-    background-position: center center;
     -webkit-background-size: cover;
-    height: 100vh;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.purchase_text{
+.purchase_text {
     margin: 5% 0 0;
 }
-
 
 .product_container img {
     width: 55%;
