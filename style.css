@@ -48,7 +48,7 @@ select {
 }
 
 #title_screen {
-    background: url(images/nier_automata.jpg);
+    background: url(images/nier_automata.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -148,7 +148,7 @@ select {
 
 /* Purchase Page */
 #purchase_page {
-    background-image: url("images/endingE.png");
+    background-image: url("images/endingE.png") no-repeat center center fixed;
     color: white;
     text-align: center;
     -webkit-background-size: cover;
