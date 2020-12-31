@@ -2,15 +2,15 @@
 
 h1{
     margin: 2% auto 0;
-    font-size: 5rem;
+    font-size: 5vw;
 }
 
 h2{
-    font-size: 3rem;
+    font-size: 3vw;
 }
 
 p{
-    font-size: 1.3rem;
+    font-size: 1.3vw;
 }
 
 hr{
@@ -82,7 +82,7 @@ select{
 }
 
 .story{
-    font-size: 2rem;
+    font-size: 2vw;
     margin: 3% auto 2%;
     text-align: center;
 
@@ -138,14 +138,18 @@ margin-top: 20px;
 
 .dot_line{
 border-top: 10px dotted;
-margin: auto;
+margin: 0;
 background-color: #f5f4f4;
 width: 5%;
-padding: 5px 0 40px;
+padding: 40px;
+
+
 }
 
 .hr_wrapper{
     background-color: #f5f4f4;
+    padding: 5%;
+
 }
 
 /* concept art page */
